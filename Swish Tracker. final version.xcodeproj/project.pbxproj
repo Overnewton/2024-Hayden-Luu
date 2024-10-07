@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50310262C2A856A006C0E94 /* addGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50310242C2A856A006C0E94 /* addGamesViewController.swift */; };
+		B531E2992C53230C00795242 /* GameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531E2982C53230C00795242 /* GameStats.swift */; };
+		B5391E292C2C38CE009F4DA5 /* gameAdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5391E272C2C38CE009F4DA5 /* gameAdvancedViewController.swift */; };
+		B5391E2D2C2C3BC4009F4DA5 /* gameScreenBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5391E2B2C2C3BC4009F4DA5 /* gameScreenBasicViewController.swift */; };
+		B55E1CB72C2A75580010B4FB /* evaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E1CB42C2A75580010B4FB /* evaluationViewController.swift */; };
+		B595F9832C292C1F003BD6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F9822C292C1F003BD6F6 /* AppDelegate.swift */; };
+		B595F9852C292C1F003BD6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F9842C292C1F003BD6F6 /* ViewController.swift */; };
+		B595F9872C292C22003BD6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B595F9862C292C22003BD6F6 /* Assets.xcassets */; };
+		B595F98A2C292C22003BD6F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B595F9892C292C22003BD6F6 /* Base */; };
+		B595F9952C292C22003BD6F6 /* Swish_Tracker_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F9942C292C22003BD6F6 /* Swish_Tracker_Tests.swift */; };
+		B595F99F2C292C22003BD6F6 /* Swish_Tracker_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F99E2C292C22003BD6F6 /* Swish_Tracker_UITests.swift */; };
+		B595F9A12C292C22003BD6F6 /* Swish_Tracker_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F9A02C292C22003BD6F6 /* Swish_Tracker_UITestsLaunchTests.swift */; };
+		B595F9B32C292F69003BD6F6 /* addStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595F9B12C292F69003BD6F6 /* addStatsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B595F9912C292C22003BD6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B595F9772C292C1F003BD6F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B595F97E2C292C1F003BD6F6;
+			remoteInfo = "Swish Tracker.";
+		};
+		B595F99B2C292C22003BD6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B595F9772C292C1F003BD6F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B595F97E2C292C1F003BD6F6;
+			remoteInfo = "Swish Tracker.";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC02F30B2C82FE7300B4A2EA /* Gotham.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gotham.ttf; sourceTree = "<group>"; };
+		B50310242C2A856A006C0E94 /* addGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGamesViewController.swift; sourceTree = "<group>"; };
+		B531E2982C53230C00795242 /* GameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStats.swift; sourceTree = "<group>"; };
+		B5391E272C2C38CE009F4DA5 /* gameAdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameAdvancedViewController.swift; sourceTree = "<group>"; };
+		B5391E2B2C2C3BC4009F4DA5 /* gameScreenBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameScreenBasicViewController.swift; sourceTree = "<group>"; };
+		B5391E5E2C2E4EC2009F4DA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B55E1CB42C2A75580010B4FB /* evaluationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluationViewController.swift; sourceTree = "<group>"; };
+		B595F97F2C292C1F003BD6F6 /* Swish Tracker. final version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swish Tracker. final version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B595F9822C292C1F003BD6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B595F9842C292C1F003BD6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B595F9862C292C22003BD6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B595F9892C292C22003BD6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B595F98B2C292C22003BD6F6 /* Swish_Tracker_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swish_Tracker_.entitlements; sourceTree = "<group>"; };
+		B595F9902C292C22003BD6F6 /* Swish Tracker. final versionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swish Tracker. final versionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B595F9942C292C22003BD6F6 /* Swish_Tracker_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swish_Tracker_Tests.swift; sourceTree = "<group>"; };
+		B595F99A2C292C22003BD6F6 /* Swish Tracker. final versionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swish Tracker. final versionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B595F99E2C292C22003BD6F6 /* Swish_Tracker_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swish_Tracker_UITests.swift; sourceTree = "<group>"; };
+		B595F9A02C292C22003BD6F6 /* Swish_Tracker_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swish_Tracker_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B595F9B12C292F69003BD6F6 /* addStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStatsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B595F97C2C292C1F003BD6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F98D2C292C22003BD6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F9972C292C22003BD6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B595B20C2C567D7F0038BDD8 /* Menu Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				B55E1CB42C2A75580010B4FB /* evaluationViewController.swift */,
+				B50310242C2A856A006C0E94 /* addGamesViewController.swift */,
+				B595F9B12C292F69003BD6F6 /* addStatsViewController.swift */,
+			);
+			path = "Menu Stuff";
+			sourceTree = "<group>";
+		};
+		B595F9762C292C1F003BD6F6 = {
+			isa = PBXGroup;
+			children = (
+				AC02F30B2C82FE7300B4A2EA /* Gotham.ttf */,
+				B595F9812C292C1F003BD6F6 /* Swish Tracker. */,
+				B595F9932C292C22003BD6F6 /* Swish Tracker.Tests */,
+				B595F99D2C292C22003BD6F6 /* Swish Tracker.UITests */,
+				B595F9802C292C1F003BD6F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B595F9802C292C1F003BD6F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B595F97F2C292C1F003BD6F6 /* Swish Tracker. final version.app */,
+				B595F9902C292C22003BD6F6 /* Swish Tracker. final versionTests.xctest */,
+				B595F99A2C292C22003BD6F6 /* Swish Tracker. final versionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B595F9812C292C1F003BD6F6 /* Swish Tracker. */ = {
+			isa = PBXGroup;
+			children = (
+				B595F9822C292C1F003BD6F6 /* AppDelegate.swift */,
+				B595F9842C292C1F003BD6F6 /* ViewController.swift */,
+				B595B20C2C567D7F0038BDD8 /* Menu Stuff */,
+				B5F8A1542C51C06A00F973B5 /* GameScreens */,
+				B595F9862C292C22003BD6F6 /* Assets.xcassets */,
+				B595F9882C292C22003BD6F6 /* Main.storyboard */,
+				B595F98B2C292C22003BD6F6 /* Swish_Tracker_.entitlements */,
+			);
+			path = "Swish Tracker.";
+			sourceTree = "<group>";
+		};
+		B595F9932C292C22003BD6F6 /* Swish Tracker.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B595F9942C292C22003BD6F6 /* Swish_Tracker_Tests.swift */,
+			);
+			path = "Swish Tracker.Tests";
+			sourceTree = "<group>";
+		};
+		B595F99D2C292C22003BD6F6 /* Swish Tracker.UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B595F99E2C292C22003BD6F6 /* Swish_Tracker_UITests.swift */,
+				B595F9A02C292C22003BD6F6 /* Swish_Tracker_UITestsLaunchTests.swift */,
+			);
+			path = "Swish Tracker.UITests";
+			sourceTree = "<group>";
+		};
+		B5F8A1542C51C06A00F973B5 /* GameScreens */ = {
+			isa = PBXGroup;
+			children = (
+				B5391E272C2C38CE009F4DA5 /* gameAdvancedViewController.swift */,
+				B5391E2B2C2C3BC4009F4DA5 /* gameScreenBasicViewController.swift */,
+				B531E2982C53230C00795242 /* GameStats.swift */,
+			);
+			path = GameScreens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B595F97E2C292C1F003BD6F6 /* Swish Tracker. final version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B595F9A42C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final version" */;
+			buildPhases = (
+				B595F97B2C292C1F003BD6F6 /* Sources */,
+				B595F97C2C292C1F003BD6F6 /* Frameworks */,
+				B595F97D2C292C1F003BD6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swish Tracker. final version";
+			productName = "Swish Tracker.";
+			productReference = B595F97F2C292C1F003BD6F6 /* Swish Tracker. final version.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B595F98F2C292C22003BD6F6 /* Swish Tracker. final versionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B595F9A72C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final versionTests" */;
+			buildPhases = (
+				B595F98C2C292C22003BD6F6 /* Sources */,
+				B595F98D2C292C22003BD6F6 /* Frameworks */,
+				B595F98E2C292C22003BD6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B595F9922C292C22003BD6F6 /* PBXTargetDependency */,
+			);
+			name = "Swish Tracker. final versionTests";
+			productName = "Swish Tracker.Tests";
+			productReference = B595F9902C292C22003BD6F6 /* Swish Tracker. final versionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B595F9992C292C22003BD6F6 /* Swish Tracker. final versionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B595F9AA2C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final versionUITests" */;
+			buildPhases = (
+				B595F9962C292C22003BD6F6 /* Sources */,
+				B595F9972C292C22003BD6F6 /* Frameworks */,
+				B595F9982C292C22003BD6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B595F99C2C292C22003BD6F6 /* PBXTargetDependency */,
+			);
+			name = "Swish Tracker. final versionUITests";
+			productName = "Swish Tracker.UITests";
+			productReference = B595F99A2C292C22003BD6F6 /* Swish Tracker. final versionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B595F9772C292C1F003BD6F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B595F97E2C292C1F003BD6F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B595F98F2C292C22003BD6F6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B595F97E2C292C1F003BD6F6;
+					};
+					B595F9992C292C22003BD6F6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B595F97E2C292C1F003BD6F6;
+					};
+				};
+			};
+			buildConfigurationList = B595F97A2C292C1F003BD6F6 /* Build configuration list for PBXProject "Swish Tracker. final version" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B595F9762C292C1F003BD6F6;
+			productRefGroup = B595F9802C292C1F003BD6F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B595F97E2C292C1F003BD6F6 /* Swish Tracker. final version */,
+				B595F98F2C292C22003BD6F6 /* Swish Tracker. final versionTests */,
+				B595F9992C292C22003BD6F6 /* Swish Tracker. final versionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B595F97D2C292C1F003BD6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B595F9872C292C22003BD6F6 /* Assets.xcassets in Resources */,
+				B595F98A2C292C22003BD6F6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F98E2C292C22003BD6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F9982C292C22003BD6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B595F97B2C292C1F003BD6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55E1CB72C2A75580010B4FB /* evaluationViewController.swift in Sources */,
+				B50310262C2A856A006C0E94 /* addGamesViewController.swift in Sources */,
+				B5391E2D2C2C3BC4009F4DA5 /* gameScreenBasicViewController.swift in Sources */,
+				B595F9852C292C1F003BD6F6 /* ViewController.swift in Sources */,
+				B5391E292C2C38CE009F4DA5 /* gameAdvancedViewController.swift in Sources */,
+				B531E2992C53230C00795242 /* GameStats.swift in Sources */,
+				B595F9B32C292F69003BD6F6 /* addStatsViewController.swift in Sources */,
+				B595F9832C292C1F003BD6F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F98C2C292C22003BD6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B595F9952C292C22003BD6F6 /* Swish_Tracker_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595F9962C292C22003BD6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B595F9A12C292C22003BD6F6 /* Swish_Tracker_UITestsLaunchTests.swift in Sources */,
+				B595F99F2C292C22003BD6F6 /* Swish_Tracker_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B595F9922C292C22003BD6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B595F97E2C292C1F003BD6F6 /* Swish Tracker. final version */;
+			targetProxy = B595F9912C292C22003BD6F6 /* PBXContainerItemProxy */;
+		};
+		B595F99C2C292C22003BD6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B595F97E2C292C1F003BD6F6 /* Swish Tracker. final version */;
+			targetProxy = B595F99B2C292C22003BD6F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B595F9882C292C22003BD6F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B595F9892C292C22003BD6F6 /* Base */,
+				B5391E5E2C2E4EC2009F4DA5 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B595F9A22C292C22003BD6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B595F9A32C292C22003BD6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B595F9A52C292C22003BD6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swish Tracker./Swish_Tracker_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B595F9A62C292C22003BD6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swish Tracker./Swish_Tracker_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B595F9A82C292C22003BD6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swish Tracker. final version.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swish Tracker. final version";
+			};
+			name = Debug;
+		};
+		B595F9A92C292C22003BD6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swish Tracker. final version.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swish Tracker. final version";
+			};
+			name = Release;
+		};
+		B595F9AB2C292C22003BD6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Swish Tracker.";
+			};
+			name = Debug;
+		};
+		B595F9AC2C292C22003BD6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HL.Swish-Tracker-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Swish Tracker.";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B595F97A2C292C1F003BD6F6 /* Build configuration list for PBXProject "Swish Tracker. final version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B595F9A22C292C22003BD6F6 /* Debug */,
+				B595F9A32C292C22003BD6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B595F9A42C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B595F9A52C292C22003BD6F6 /* Debug */,
+				B595F9A62C292C22003BD6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B595F9A72C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final versionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B595F9A82C292C22003BD6F6 /* Debug */,
+				B595F9A92C292C22003BD6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B595F9AA2C292C22003BD6F6 /* Build configuration list for PBXNativeTarget "Swish Tracker. final versionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B595F9AB2C292C22003BD6F6 /* Debug */,
+				B595F9AC2C292C22003BD6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B595F9772C292C1F003BD6F6 /* Project object */;
+}
